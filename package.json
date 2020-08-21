@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nxt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An eslint config based on airbnb-base for TypeScript",
   "main": "index.js",
   "peerDependencies": {
@@ -13,6 +13,7 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
     "typescript-eslint": "^0.0.1-alpha.0"
   },
   "devDependencies": {
