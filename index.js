@@ -4,10 +4,8 @@ module.exports = {
     "plugin:jest/all",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript",
-    "plugin:@typescript-eslint/recommended",
   ],
-  plugins: ["jest", "@typescript-eslint"],
+  plugins: ["jest"],
   root: true,
   globals: {},
   rules: {
@@ -38,8 +36,6 @@ module.exports = {
         "newlines-between": "always",
       },
     ],
-    "@typescript-eslint/camelcase": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
     "import/no-extraneous-dependencies": "off",
     "import/extensions": "off",
     "no-plusplus": "off",
@@ -52,19 +48,6 @@ module.exports = {
     "object-curly-newline": "off",
     "no-await-in-loop": "off",
   },
-  parser: "@typescript-eslint/parser",
   env: {},
   overrides: [],
-  settings: {
-    "import/resolver": {
-      alias: {
-        map: [
-          ["@src", "./src"],
-          ["@tests", "./tests"],
-          ["@queries", "./queries"],
-        ],
-        extensions: [".ts", ".js"],
-      },
-    },
-  },
 };
