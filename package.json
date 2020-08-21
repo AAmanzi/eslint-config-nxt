@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-nxt",
+  "version": "1.0.0",
+  "description": "An eslint config based on airbnb-base for TypeScript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AAmanzi/eslint-config-nxt.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "styleguide",
+    "typescript"
+  ],
+  "author": "Alex Amanzi <alnick.amanzi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AAmanzi/eslint-config-nxt/issues"
+  },
+  "homepage": "https://github.com/AAmanzi/eslint-config-nxt#readme"
+}
